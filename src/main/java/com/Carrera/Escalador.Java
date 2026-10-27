@@ -2,12 +2,12 @@ package com.carrera;
 
 public class Escalador extends Ciclista {
     private float aceleracionPromedio;
-    private float gradoRampa;
+    private float gradorampa;
 
-    public Escalador(int identificador, String nombre, float aceleracionPromedio, float gradoRampa) {
+    public Escalador(int identificador, String nombre, float aceleracionPromedio, float gradorampa) {
         super(identificador, nombre);
         this.aceleracionPromedio = aceleracionPromedio;
-        this.gradoRampa = gradoRampa;
+        this.gradorampa = gradorampa;
     }
 
     public float getAceleracionPromedio() {
@@ -19,11 +19,11 @@ public class Escalador extends Ciclista {
     }
 
     public float getGradoRampa() {
-        return gradoRampa;
+        return gradorampa;
     }
 
     public void setGradoRampa(float gradoRampa) {
-        this.gradoRampa = gradoRampa;
+        this.gradorampa = gradorampa;
     }
 
     public String imprimirTipo(){

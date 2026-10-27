@@ -27,12 +27,12 @@ public abstract class Ciclista {
         this.nombre = nombre;
     }
 
-    public int getTiempoAcumulado() {
+    public int getTiempoacumulado() {
         return tiempoacumulado;
     }
      // sirve para modificar o actualizar el tiempo un ejemplo: despues de terminar la etapa
-    public void setTiempoAcumulado(int tiempoAcumulado) {
-        this.tiempoAcumulado = tiempoacumulado;
+    public void setTiempoacumulado(int tiempoacumulado) {
+        this.tiempoacumulado = tiempoacumulado;
     }
 
     //Cada especialidad devuelve su tipo. 
