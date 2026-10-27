@@ -1,6 +1,6 @@
 package com.carrera;
 
-public abstract class ciclista {
+public abstract class Ciclista {
 
     private int identificador;
     private String nombre;
