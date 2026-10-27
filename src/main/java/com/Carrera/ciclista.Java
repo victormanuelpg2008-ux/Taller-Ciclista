@@ -4,7 +4,7 @@ public abstract class Ciclista {
 
     private int identificador;
     private String nombre;
-    private int tiempoAcumulado; // valor inicial 0 
+    private int tiempoacumulado; // valor inicial 0 
 
     public Ciclista(int identificador, String nombre) {
         this.identificador = identificador;

@@ -1,19 +1,19 @@
 package com.carrera;
 
 public class Contrarrelojista extends Ciclista {
-    private double velocidadMaxima;
+    private double velocidadmaxima;
 
-    public Contrarrelojista(int id, String nombre, double velocidadMaxima) {
+    public Contrarrelojista(int id, String nombre, double velocidadmaxima) {
         super(id, nombre);
-        this.velocidadMaxima = velocidadMaxima;
+        this.velocidadmaxima = velocidadmaxima;
     }
 
-    public double getVelocidadMaxima() {
-        return velocidadMaxima;
+    public double getVelocidadmaxima() {
+        return velocidadmaxima;
     }
 
-    public void setVelocidadMaxima(double velocidadMaxima) {
-        this.velocidadMaxima = velocidadMaxima;
+    public void setVelocidadmaxima(double velocidadmaxima) {
+        this.velocidadmaxima = velocidadmaxima;
     }
 
     public String imprimirTipo(){
@@ -22,7 +22,7 @@ public class Contrarrelojista extends Ciclista {
 
     public void imprimirDatos(){
         super.imprimirDatos();
-        System.out.println("Velocidad máxima: " + velocidadMaxima);
+        System.out.println("Velocidad máxima: " + velocidadmaxima);
     }
 
 
