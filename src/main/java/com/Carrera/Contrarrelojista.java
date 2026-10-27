@@ -1,4 +1,4 @@
-package main.java.com.carrera;
+package com.carrera;
 
 public class Contrarrelojista extends Ciclista {
     private double velocidadMaxima;
