@@ -1,5 +1,5 @@
 # Taller Ciclista
-Este taller fue desarrollado en **Java** alrededor de **Maven**, con un enfoque dirigido a la gestión orientada a objetos de una competencia de ciclismo y sus distintos tipos de corredores (como velocistas, contrarrelojistas, escaladores,).
+Este taller fue desarrollado en **Java** alrededor de **Maven**, con un enfoque dirigido a la gestión orientada a objetos de una competencia de ciclismo y sus distintos tipos de corredores (como Velocistas, Contrarrelojistas, Escaladores,).
 
 ## Estructura del Taller
 El código fuente se encuentra organizado dentro del paquete principal `com.`[cite: 2, 5], implementando conceptos clave de la programación orientada a objetos como:
