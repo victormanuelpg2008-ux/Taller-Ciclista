@@ -4,7 +4,7 @@ public abstract class Ciclista {
 
     private int identificador;
     private String nombre;
-    private int tiempoacumulado; // valor inicial 0 
+    private int tiempoacumulado; 
 
     public Ciclista(int identificador, String nombre) {
         this.identificador = identificador;
@@ -30,12 +30,12 @@ public abstract class Ciclista {
     public int getTiempoacumulado() {
         return tiempoacumulado;
     }
-     // sirve para modificar o actualizar el tiempo un ejemplo: despues de terminar la etapa
+     
     public void setTiempoacumulado(int tiempoacumulado) {
         this.tiempoacumulado = tiempoacumulado;
     }
 
-    //Cada especialidad devuelve su tipo. 
+   
     public String imprimirTipo(){
         return "Es un " + this.getClass().getSimpleName();
     }

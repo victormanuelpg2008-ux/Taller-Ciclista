@@ -8,7 +8,7 @@ public class Equipo {
 
     private String nombreEquipo;
     private String pais;
-    private int tiempoTotalEquipo; // suma de tiempos de sus ciclistas (min)
+    private int tiempoTotalEquipo; 
     private List<Ciclista> ciclistas;
 
      public Equipo(String nombreEquipo, String pais) {
@@ -39,7 +39,7 @@ public class Equipo {
         this.tiempoTotalEquipo = tiempoTotalEquipo;
     }
 
-    // Añade un ciclista y suma su tiempo acumulado al tiempo total del equipo. 
+
     public void añadirCiclista(Ciclista ciclista) {
         if (ciclista == null) {
             throw new IllegalArgumentException("El ciclista no puede ser nulo");
